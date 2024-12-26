@@ -26,7 +26,8 @@ dependencies:
   googleapis_auth: ^1.4.1
   googleapis: ^5.0.0
   google_sign_in: ^5.2.1
-  
+  flutter_dotenv: ^5.0.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
