@@ -14,9 +14,11 @@ import 'pages/active_misr_bank_page.dart';
 import 'pages/bad_debts_misr_bank_page.dart';
 import 'pages/employee_management_page.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   runZonedGuarded(() async {
     await resetFirestoreFolder();
     await Firebase.initializeApp(
