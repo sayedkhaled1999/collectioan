@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986544922490",
+    "project_id": "collectioan",
+    "storage_bucket": "collectioan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986544922490:android:29f5da5c1c50efe59380c3",
+        "android_client_info": {
+          "package_name": "com.example.collectioan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA47Z_6Y8l1wfmHsNSiviBWUGgFzUAsH9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

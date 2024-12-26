@@ -1,0 +1,52 @@
+name: collectioan
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.5+3
+  geolocator: ^9.0.1
+  logger: ^1.1.0
+  intl: ^0.18.1
+  shared_preferences: ^2.0.17
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.11
+  permission_handler: ^10.2.0
+  path: ^1.8.0
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  sqflite_common_ffi: ^2.3.4+4
+  cloud_firestore: ^5.6.0
+  googleapis_auth: ^1.4.1
+  googleapis: ^5.0.0
+  google_sign_in: ^5.2.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/icon/app_icon.png
+    - assets/icon/app_icon.ico
+    - assets/images/icon1.png
+    - assets/images/icon2.png
+    - assets/images/icon3.png
+    - assets/images/icon4.png
+    - assets/images/iconcamera.png
+    - assets/images/iconvisit.png
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: true
+  windows: true
+  image_path: "assets/icon/app_icon.png"
